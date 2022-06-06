@@ -1,5 +1,4 @@
 a = parseInt(prompt('a'));
-console.log(a);
 while(a < 0 || isNaN(a)) {
     alert(`a должно быть больше 0`);
     a = parseInt(prompt('a'));
